@@ -3,7 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
+    
+    background-image: "https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png"('background-image.jpg');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    }
 
 /* Header styles */
 header {
