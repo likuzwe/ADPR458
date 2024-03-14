@@ -29,7 +29,12 @@ h2 {
 /* Center the image */
 .header img {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 20px;
+    border-radius: 100%; /* Make the image round */
+    border: 4px solid #CCAC55; /* Add a white border */
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    object-fit: Cover;
 }
 
 /* Style paragraphs */
