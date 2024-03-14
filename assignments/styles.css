@@ -16,15 +16,11 @@ body {
 /* Style the h1 */
 .header h1 {
     color: #FFD700; /* Gold color */
-    text-decoration: underline;
-}
-.header h1::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -5px; /* Adjust as needed */
-    width: 100%;
-    border-bottom: 2px solid #FFD700; /* Gold color */
+    position: relative;
+    font-weight: normal; /* Set font weight to normal */
+    text-transform: uppercase; /* Set text to uppercase */
+    border-bottom: 1px solid #57b1dc; /* Add bottom border */
+    margin-top: 30px; /* Add top margin */
 }
 
 /* Style the h2 */
