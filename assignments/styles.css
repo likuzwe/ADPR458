@@ -1,7 +1,7 @@
 /* Apply teal background to the whole page */
 body {
     background-color: teal;
-    margin: 0;
+    margin: 0 10%;
     padding: 0 20px;
     font-family: Arial, sans-serif;
 }
@@ -9,7 +9,6 @@ body {
 /* Center the logo and add a colored border */
 .header {
     text-align: center;
-    border: 5px solid #FFD700; /* Gold color */
     padding: 20px;
     margin-bottom: 20px;
 }
