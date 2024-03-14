@@ -18,6 +18,13 @@ body {
     color: #FFD700; /* Gold color */
     text-decoration: underline;
 }
+.header h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust as needed */
+    width: 100%;
+    border-bottom: 2px solid #FFD700; /* Gold color */
 
 /* Style the h2 */
 h2 {
