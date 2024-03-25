@@ -97,3 +97,6 @@ footer {
 .contact-info h3, .social-media h3 {
     margin-bottom: 10px;
 }
+.copyright {
+    font-size: 14px;
+    color: #666;
