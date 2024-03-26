@@ -14,9 +14,7 @@ body {
 /* Header styles */
 .full-page-header {
     height: 100vh; /* Height of the viewport */
-    background-image: url('https://bdsolutions.co.nz/wp-content/uploads/2015/09/Backyard-bar-LOGO_2.jpg');
-    background-size: cover; /* Cover the entire header */
-    background-position: center; /* Center the background image */
+    background-color: teal; /* Teal background color */
     color: white; /* Text color */
 }
 
@@ -32,6 +30,7 @@ body {
 .header-content p {
     font-size: 18px;
 }
+
 }
 
 header img {
