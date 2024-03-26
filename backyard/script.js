@@ -28,4 +28,15 @@ function adjustStyles() {
             link.style.textAlign = 'center';
         });
     }
+
+    if (screenWidth < 600) {
+        navbar.classList.add('responsive');
+    } else {
+        navbar.classList.remove('responsive');
+    }
 }
+window.addEventListener('resize', function() {
+    adjustStyles();
+});
+
+
