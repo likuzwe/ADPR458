@@ -14,7 +14,7 @@ body {
 /* Header styles */
 .full-page-header {
     height: 100vh; /* Height of the viewport */
-    background-color: teal; /* Teal background color */
+    background-color: #0c4352; /* Teal background color */
     color: white; /* Text color */
 }
 
@@ -31,7 +31,6 @@ body {
     font-size: 18px;
 }
 
-}
 
 header img {
     display: block;
