@@ -60,8 +60,7 @@ header p {
 }
 .container {
     margin-top: 50px; 
-
-/* Style the navigation bar links */
+}
 .navbar a {
     display: inline-block; /* Make them inline-block elements */
     color: #CCAC55; /* Text color */
