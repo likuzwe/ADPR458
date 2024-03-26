@@ -47,6 +47,7 @@ header p {
 }
 
 .navbar {
+    position: fixed;
     background-color: #0c4352; /* Set background color */
     overflow: hidden; /* Clear floats */
     text-align: center; /* Center-align the text */
