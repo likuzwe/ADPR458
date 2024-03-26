@@ -38,5 +38,24 @@ function adjustStyles() {
 window.addEventListener('resize', function() {
     adjustStyles();
 });
+function toggleMenu() {
+    const navbar = document.getElementById('navbar');
+    const menuIcon = document.querySelector('.menu-icon');
+    const navLinks = document.querySelectorAll('.navbar a:not(.menu-icon)');
+
+    if (navbar.classList.contains('responsive')) {
+        navbar.classList.remove('responsive');
+        menuIcon.innerHTML = '<i class="fa fa-bars"></i>';
+        navLinks.forEach(link => {
+            link.style.display = 'inline-block';
+        });
+    } else {
+        navbar.classList.add('responsive');
+        menuIcon.innerHTML = '<i class="fa fa-times"></i>';
+        navLinks.forEach(link => {
+            link.style.display = 'block';
+        });
+    }
+}
 
 
