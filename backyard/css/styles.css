@@ -12,16 +12,26 @@ body {
     padding: 20px;
     }
 /* Header styles */
-header {
-    background-color: #0c4352;
-    color: #CCAC55;
-    text-align: center;
-    padding: 40px 0;
+.full-page-header {
+    height: 100vh; /* Height of the viewport */
+    background-image: url('https://bdsolutions.co.nz/wp-content/uploads/2015/09/Backyard-bar-LOGO_2.jpg');
+    background-size: cover; /* Cover the entire header */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color */
 }
 
 .header-content {
-    max-width: 800px;
-    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px; /* Adjust as needed for vertical centering */
+}
+
+.header-content h1 {
+    font-size: 36px;
+}
+
+.header-content p {
+    font-size: 18px;
+}
 }
 
 header img {
