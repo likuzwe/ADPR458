@@ -53,7 +53,13 @@ header p {
     text-align: center; /* Center-align the text */
     border-top: 5px solid #CCAC55;
     border-bottom: 5px solid #CCAC55;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000
 }
+.container {
+    margin-top: 50px; 
 
 /* Style the navigation bar links */
 .navbar a {
