@@ -57,5 +57,14 @@ function toggleMenu() {
         });
     }
 }
+window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('.navbar');
+    var header = document.querySelector('.full-page-header');
 
+    if (window.scrollY > header.clientHeight) {
+        navbar.style.backgroundColor = 'transparent';
+    } else {
+        navbar.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+    }
+});
 
