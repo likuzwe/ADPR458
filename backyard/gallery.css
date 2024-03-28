@@ -1,0 +1,14 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid with minimum column width of 250px */
+    gap: 20px; /* Add spacing between grid items */
+}
+
+.image {
+    overflow: hidden; /* Ensure images don't overflow the container */
+}
+
+.image img {
+    width: 100%; /* Make images fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
