@@ -17,3 +17,111 @@
 .contact-form {
     padding-left: 20px; /* Add some space between columns */
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.contact {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-info, .contact-form {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-info h2, .contact-form h2 {
+    color: #4CAF50;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media h3 {
+    color: #4CAF50;
+}
+
+.social-media ul {
+    padding: 0;
+}
+
+.social-media ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-media ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #4CAF50;
+    transition: transform 0.3s ease;
+}
+
+.social-media ul li img:hover {
+    transform: scale(1.1);
+}
