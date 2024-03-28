@@ -9,7 +9,7 @@
 
 .contact-info, .contact-form {
     width: calc(50% - 10px); 
-    margin: 5px; 
+    margin: 5px auto; 
     padding: 20px;
     border: 1px solid #ccc;
     box-sizing: border-box; 
