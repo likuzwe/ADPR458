@@ -1,24 +1,23 @@
-/* Other styles remain the same */
 
 .contact {
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: wrap; /* Wrap items if they overflow */
+    flex-wrap: wrap; 
 }
 
 .contact-info, .contact-form {
-    width: calc(50% - 10px); /* 50% width for each column with spacing */
-    margin: 5px; /* Adjust spacing between columns */
+    width: calc(50% - 10px); 
+    margin: 5px; 
     padding: 20px;
     border: 1px solid #ccc;
-    box-sizing: border-box; /* Include padding and border in width calculation */
+    box-sizing: border-box; 
 }
 
 .contact-info h2, .contact-form h2 {
     color: #4CAF50;
-    text-align: center; /* Center the heading */
+    text-align: center; 
 }
 
 .contact-info p {
@@ -55,7 +54,6 @@
     text-align: center;
 }
 
-/* Other styles remain the same */
 
 .footer-content {
     display: flex;
@@ -65,14 +63,13 @@
 }
 
 .contact-form-footer, .social-media {
-    flex: 1; /* Each item takes up equal space */
+    flex: 1; 
     text-align: center;
 }
 
 .contact-form-footer form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .contact-form-footer label {
@@ -98,7 +95,7 @@
 
 .social-media ul {
     padding: 0;
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 .social-media ul li {
@@ -108,7 +105,7 @@
 }
 
 .social-media ul li:last-child {
-    margin-right: 0; /* Remove margin from last social media icon */
+    margin-right: 0; 
 }
 
 .social-media ul li img {
