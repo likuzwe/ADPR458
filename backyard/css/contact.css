@@ -68,6 +68,8 @@ body {
 
 .contact-info p {
     margin: 5px 0;
+    text-align: center;
+    padding: 20px;
 }
 
 .contact-form form {
