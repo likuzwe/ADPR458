@@ -72,6 +72,7 @@
 .contact-form-footer form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .contact-form-footer label {
