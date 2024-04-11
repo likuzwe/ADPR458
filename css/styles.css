@@ -16,10 +16,16 @@ body {
 .full-page-header {
     height: 100vh;
     /* Height of the viewport */
-    background-color: #0c4352;
+    
+    background-image: url('Images/grill-bbq.jpeg');
+    background-size: cover;
     /* Teal background color */
     color: #CCAC55;
     /* Text color */
+}
+
+.overlay {
+    background-color: #0c43527c;
 }
 
 .header-content {
