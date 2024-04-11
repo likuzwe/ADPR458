@@ -17,7 +17,7 @@ body {
     height: 100vh;
     /* Height of the viewport */
     
-    background-image: url('Images/grill-bbq.jpeg');
+    background-image: url('../Images/grill-bbq.jpeg');
     background-size: cover;
     /* Teal background color */
     color: #CCAC55;
